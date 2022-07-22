@@ -36,15 +36,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	<span class="error"><?php echo $emailErr; ?></span> <br>
 	<input type="submit" value="Submit"> 
 </form>
-
+	
 <hr>
 
 <?php
 
+include("connections.php");
+
 	if ($name && $address && $email ) {
-		echo "Name: $name" . "<br>";
-		echo "Address: $address" . "<br>";
-		echo "Email: $email" . "<br>";
+		
+		$query = mysqli_query($connections, "INSERT INTO mytbl(name,address,email) VALUES('$name','$address','$email')");
 	}
 
 ?>
