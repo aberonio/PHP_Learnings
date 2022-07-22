@@ -1,4 +1,4 @@
-# PHP_Validation
+# PHP_Learnings
 -Created PHP file that will validate entries in a form.  
 -07/22/2022  
 -Created connections.php file to access created database using PHPmyadmin.  
