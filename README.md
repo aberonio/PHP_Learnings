@@ -7,4 +7,6 @@
 -Added a script that will serve as notification for new data inputs.  
 -View/retrieve functionalities,Created a table that will show retrieved data's from database.  
 *07/29/2022  
--Edit and Update features.
+-Edit and Update features.  
+  +Addtional files uploaded(Edit.php & Update_Record.php).  
+-Uploaded exported database(mydb.sql)
