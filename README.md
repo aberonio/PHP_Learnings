@@ -9,4 +9,7 @@
 *07/29/2022  
 -Edit and Update features.  
   +Addtional files uploaded(Edit.php & Update_Record.php).  
--Uploaded exported database(mydb.sql)
+-Uploaded exported database(mydb.sql)  
+*08/03/2022  
+-Added delete options.  
+ +Additional files uploaded (ConfirmDelete.php & Delete_Now.php).
